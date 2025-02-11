@@ -1,6 +1,7 @@
 # Testing Your Code
 
-Welcome to my "Testing Your Code" repository! This notebook is designed to help me practice debugging and testing Python functions. The challenge involves identifying and fixing errors in the provided functions, ensuring they produce the expected outputs. I'll be using an autograder to verify my solutions.
+Welcome to my "Testing Your Code" repository! This notebook is designed to help me practice debugging and testing Python functions. 
+The challenge involves identifying and fixing errors in the provided functions, ensuring they produce the expected outputs. I'll be using an autograder to verify my solutions.
 
 ## Instructions
 
@@ -40,20 +41,17 @@ def function_1(a,b):
     c = (a * b) - a
     return c
 ### END FUNCTION
-Expected Outputs:
 
-python
-Copy
+Expected Outputs:
 function_1(1,1) == 0
 function_1(1,2) == 1
 function_1(5,2) == 5
 function_1(5,6) == 25
 function_1(-5,-6) == 35
+
 Function 2: function_2(a, b)
 In this function, the condition checks the value of a, but the code doesn't produce the expected result. I'll need to modify it so that it works as intended.
 
-python
-Copy
 ### START FUNCTION
 def function_2(a,b):
     if a < 2:
@@ -83,16 +81,16 @@ function_3(1,2) == (4,3)
 function_3(5,2) == (20,19)
 function_3(5,6) == (60,59)
 function_3(-5,-6) == (60,59)
-
+```
 
 ## How I Will Use This Notebook
-1. Fix the Errors:
-   I will carefully read through each function, compare it with the expected output, and modify the code to ensure it works correctly.
 
-2.Test My Code:
-  Once I’ve made my changes, I’ll run the tests to check if my solutions are correct, and if not, I’ll examine the error messages and adjust the code 
-  accordingly.
+1. **Fix the Errors**:
+   - I will carefully read through each function, compare it with the expected output, and modify the code to ensure it works correctly.
 
-3.Submit My Code:
-  Once I’m confident that all errors are fixed, I’ll submit the notebook for grading, and the repository is licensed under the MIT License – see the 
-  LICENSE file for details.
+2. **Test My Code**:
+   - Once I’ve made my changes, I’ll run the tests to check if my solutions are correct. If not, I’ll examine the error messages and adjust the code accordingly.
+
+3. **Submit My Code**:
+   - Once I’m confident that all errors are fixed, I’ll submit the notebook for grading.
+   - The repository is licensed under the MIT License – see the LICENSE file for details.
